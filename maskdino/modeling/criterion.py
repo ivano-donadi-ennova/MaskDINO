@@ -21,7 +21,7 @@ from detectron2.projects.point_rend.point_features import (
 )
 
 from ..utils.misc import is_dist_avail_and_initialized, nested_tensor_from_tensor_list
-from maskdino.utils import box_ops
+from ..utils import box_ops
 
 
 def sigmoid_focal_loss(inputs, targets, num_boxes, alpha: float = 0.25, gamma: float = 2):
